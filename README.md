@@ -7,6 +7,7 @@ A API é integrada com o WebService para consulta de endereços [ViaCep](https:/
 ## API
 
 - `[GET] /students` - Busca os dados do aluno;
+
 - `[POST] /students` - Cadastra um novo aluno;
 
 Exemplo de corpo da requisição:
@@ -19,7 +20,9 @@ Exemplo de corpo da requisição:
 }
 ```
 - `[GET] /student/{id}` - Busca um aluno pelo id;
+
 - `[PUT] /student/{id}` - Busca um aluno pelo id e altera de acordo com os dados enviados;
+
 Exemplo de corpo da requisição:
 ```
 {
@@ -29,4 +32,5 @@ Exemplo de corpo da requisição:
     "zipcode": "11710100"
 }
 ```
+
 - `[DELETE] /student/{id}` - Remove um aluno pelo id.
